@@ -1,0 +1,59 @@
+body {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-image: url(image.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.clock-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#clock-time,
+#clock {
+  font-size: 100px;
+  color: white;
+  padding: 20px 20px;
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+  background-color: hsla(0%, 0%, 100%, 0.1);
+}
+#timer {
+  padding: 20px 40px;
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  border: none;
+}
+.controls {
+  display: flex;
+  gap: 60px;
+}
+#start,
+#stop,
+#reset,
+#time,
+#timer {
+  padding: 20px 40px;
+  color: white;
+  background-color: black;
+  font-size: 25px;
+  border: none;
+  border-radius: 20px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+#start:hover,
+#stop:hover,
+#reset:hover,
+#time:hover,
+#timer:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+  border: 2px solid white;
+}
