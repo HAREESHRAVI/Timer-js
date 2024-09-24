@@ -55,5 +55,5 @@ body {
 #timer:hover {
   transform: scale(1.1);
   transition: 0.3s;
-  border: 2px solid white;
+  box-shadow: 0 0 10px white;
 }
